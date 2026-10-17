@@ -1,0 +1,12 @@
+check,severity,nodes,detail
+invalid_record,high,CH10;PF00,missing/NaN impressions on CH10->PF00
+invalid_record,high,CH11;PF01,"negative impressions (-12,000) on CH11->PF01"
+invalid_record,high,PF02,self-loop on PF02
+backward_edge,high,EX01;PF01,EX01->PF01 flows against the supply chain
+cycle,high,EX01;PF01,cycle: PF01 -> EX01 -> PF01
+orphan_source,high,EX99,EX99 sends traffic but receives none
+dead_end,medium,PF90,PF90 receives traffic but passes none on
+island,medium,CH90;PF90,disconnected component of 2 nodes
+flow_imbalance,high,PF03,PF03 out/in ratio = 1.76
+flow_imbalance,medium,PF90,PF90 out/in ratio = 0.00
+degree_outlier,medium,CH07,CH07 degree 6 vs layer median 2

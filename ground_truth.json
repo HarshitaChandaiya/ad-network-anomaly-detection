@@ -1,0 +1,26 @@
+{
+  "A1_inflated_flow": [
+    "PF03"
+  ],
+  "A2_cycle": [
+    "EX01",
+    "PF01"
+  ],
+  "A3_orphan_source": [
+    "EX99"
+  ],
+  "A4_bad_records": [
+    "CH10",
+    "CH11",
+    "PF00",
+    "PF01",
+    "PF02"
+  ],
+  "A5_island": [
+    "CH90",
+    "PF90"
+  ],
+  "A6_degree_outlier": [
+    "CH07"
+  ]
+}
